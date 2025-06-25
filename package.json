@@ -1,0 +1,22 @@
+{
+  "name": "parkeoya-backend",
+  "version": "1.0.0",
+  "description": "Backend de la app ParkeoYA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
